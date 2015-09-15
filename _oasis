@@ -1,0 +1,14 @@
+OASISFormat: 0.4
+Name:        school_calendar
+Version:     1.0
+Synopsis:    Generate school calendar considering the holidays etc
+Authors:     Evgenii Lepikhin
+License:     GPL-3
+Plugins:     META (0.4)
+BuildDepends: calendar, gapi-ocaml
+
+Executable school_calendar
+  Path:       src
+  BuildTools: ocamlbuild
+  MainIs:     main.ml
+  
